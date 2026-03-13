@@ -1,0 +1,23 @@
+PRODUCT TYPE			
+Broad Category	Category	Workday Product Code	Definition
+Office	Office	PT007	Office
+Commercial	Commercial - Retail	PT009	High Street, Shopping Center/Mall, Retail Park, Supermarket, Hypermarket, Convenience Store, Outlet, Grocery, Department Store, Fashion & Specialty
+	Commercial - Hospitality	PT002	Hotel, Resort, Country House/Lodge, Extended stay, Branded residence, Hostel, Campsite
+	Commercial - Others	PT053	Anything Commercial related except for Retail (use PT009) and Hospitality (use PT002). Eg of Commercial: Bar/restaurant, Cinema, Theatre/concert hall, Health club/gym, Casino
+Industrial	Industrial - Warehouse and Distribution	PT049	Warehouse, Logistics center, Logistics, Distribution Centers
+	Industrial - Self Storage	PT040	Self storage is defined as a securable static space, less than 500sqft in size, that is to be used by a person or business for the storage of their goods, with the customer having ready access to the space
+	Industrial - Data Center	PT063	Data Center
+	Industrial - Life Sciences	Pending	"Space that is configured support usage as a lab facility for life sciences, including electrical, HVAC, ventilation, and/or plumbing systems that are designed for research or production laboratory. 
+
+Life science tenants encompass a wide range of medical fields, including biotechnology, pharmaceuticals, biomedical technologies, life systems technologies, nutraceuticals, and the medical devices and medical tools sectors"
+	Industrial - Technology and Telcom	PT046	
+	Industrial - R&D	PT037	Laboratories
+	Industrial - Others	PT003	Anything Industrial except those specifically listed above
+Land	Land	PT004	Land
+Residential	Residential - Housing	PT017	Only Prison related
+	Residential - Multifamily	PT006	Apartment (low/mid/high rise), Condo, Seniors Living, property has 5 or more units
+	Residential - Others	PT055	E.g: Single family, Co-living, Mobile home park
+Healthcare	Healthcare	PT001	Healthcare Medical Facility / Nursing Home / Hospital, Surgeries, Urgent care, Care Home
+Non-Profit	Religious	PT036	Religious places of worships
+Other	Other - Mixed-use	PT005	Other than the above mentioned property types (such as industrial, retail, multi-family) within a single structure or larger development
+	Other - Other	PT011	All other not listed. Expect to be minimal
