@@ -114,20 +114,20 @@ function generateProjectName(step1: Step1Data, selectedSvc: ServiceItem | null):
 
 function TopNav() {
   return (
-    <nav className="w-full bg-white border-b border-gray-200 px-6 h-14 flex items-center justify-between shrink-0">
+    <nav className="w-full bg-[#1a2744] px-6 h-14 flex items-center justify-between shrink-0">
       <div className="flex items-center gap-3">
-        <button className="flex items-center gap-1.5 text-gray-600">
+        <button className="flex items-center gap-1.5 text-white/70 hover:text-white">
           <Menu className="w-5 h-5" /><span className="text-sm font-medium">메뉴</span>
         </button>
-        <div className="w-px h-5 bg-gray-200 mx-1" />
-        <img src="/__mockup/images/cw-logo.png" alt="Cushman & Wakefield" className="h-6 object-contain" style={{ filter: "invert(1) brightness(0)" }} />
+        <div className="w-px h-5 bg-white/20 mx-1" />
+        <img src="/__mockup/images/cw-logo-color.png" alt="Cushman & Wakefield" className="h-8 object-contain" />
       </div>
       <div className="flex items-center gap-3">
-        <button className="text-gray-500"><Bell className="w-5 h-5" /></button>
-        <button className="text-gray-500"><Share2 className="w-5 h-5" /></button>
-        <div className="flex items-center rounded-md border border-gray-200 overflow-hidden text-xs font-medium">
-          <button className="px-3 py-1.5 bg-gray-900 text-white">KR</button>
-          <button className="px-3 py-1.5 bg-white text-gray-500">En</button>
+        <button className="text-white/70 hover:text-white"><Bell className="w-5 h-5" /></button>
+        <button className="text-white/70 hover:text-white"><Share2 className="w-5 h-5" /></button>
+        <div className="flex items-center rounded-md border border-white/20 overflow-hidden text-xs font-medium">
+          <button className="px-3 py-1.5 bg-white text-[#1a2744]">KR</button>
+          <button className="px-3 py-1.5 text-white/70 hover:text-white hover:bg-white/10">En</button>
         </div>
       </div>
     </nav>
