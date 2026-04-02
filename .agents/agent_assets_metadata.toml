@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "u_NVVYhKYGO-ofcnvGVdZ"
+uri = "file://docs/cw-project-form-spec.md"
+type = "text"
+title = "CW Project Creation Form — AI 구현 스펙 문서"
