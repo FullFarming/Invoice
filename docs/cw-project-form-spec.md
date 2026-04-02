@@ -32,7 +32,7 @@
 | Definition Box BG | `#eff6ff` (blue-50) | 서비스 정의 안내 박스 배경 |
 | Definition Box Border | `#bfdbfe` (blue-200) | 서비스 정의 안내 박스 테두리 |
 
-### CSS 변수 전체 (HSL, Light Mode — `:root`)
+### 핵심 CSS 변수 (HSL, Light Mode — `:root`)
 
 ```css
 :root {
@@ -147,7 +147,7 @@
 ### 4-1. TopNav
 
 ```
-위치: 최상단 고정
+위치: 최상단 (고정 position 없음 — 페이지 스크롤 시 함께 스크롤됨)
 크기: w-full h-14
 배경: bg-white
 하단 테두리: border-b border-gray-200
@@ -800,7 +800,6 @@ artifacts/cw-project-form/
 │           └── ...                  # 기타 shadcn 컴포넌트
 ├── index.html
 ├── vite.config.ts
-├── tailwind.config.ts
 ├── tsconfig.json
 └── package.json
 ```
